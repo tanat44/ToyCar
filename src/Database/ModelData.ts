@@ -13,7 +13,7 @@ const cadillacSeville: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.NA,
   driveTrain: DriveTrain.FWD,
-  country: Country.American,
+  country: Country.America,
   modelYearFrom: 1979,
   modelYearTo: 1985,
   doors: 4,
@@ -23,7 +23,7 @@ const cadillacSeville: Model = {
 const mercedes560: Model = {
   modelName: "560 SEC AMG",
   maker: Maker.MercedesBenz,
-  country: Country.Germany,
+  country: Country.German,
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.NA,
   driveTrain: DriveTrain.RWD,
@@ -38,7 +38,7 @@ const chevroletC3: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.NA,
   driveTrain: DriveTrain.RWD,
-  country: Country.American,
+  country: Country.America,
   modelYear: 1972,
   doors: 2,
   horsepower: 270,
@@ -50,7 +50,7 @@ const chevroletC4: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.NA,
   driveTrain: DriveTrain.RWD,
-  country: Country.American,
+  country: Country.America,
   modelYear: 1984,
   doors: 2,
   horsepower: 205,
@@ -62,7 +62,7 @@ const gmcSyclone: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.Turbo,
   driveTrain: DriveTrain.AWD,
-  country: Country.American,
+  country: Country.America,
   modelYear: 1991,
   doors: 2,
   horsepower: 280,
@@ -74,7 +74,7 @@ const subaruWrx: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.Turbo,
   driveTrain: DriveTrain.AWD,
-  country: Country.Japanese,
+  country: Country.Japan,
   modelYearFrom: 2014,
   modelYearTo: 2020,
   doors: 4,
@@ -87,7 +87,7 @@ const fordShelby: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.NA,
   driveTrain: DriveTrain.RWD,
-  country: Country.American,
+  country: Country.America,
   modelYear: 2019,
   horsepower: 526,
   doors: 2,
@@ -99,10 +99,60 @@ const fordThunderbird: Model = {
   enginePlacement: EnginePlacement.Front,
   engineIntake: EngineIntake.Turbo,
   driveTrain: DriveTrain.RWD,
-  country: Country.American,
+  country: Country.America,
   modelYear: 1988,
   doors: 2,
   horsepower: 190,
+};
+
+const mazda787: Model = {
+  modelName: "787B",
+  maker: Maker.Mazda,
+  enginePlacement: EnginePlacement.Middle,
+  engineIntake: EngineIntake.NA,
+  driveTrain: DriveTrain.RWD,
+  country: Country.Japan,
+  modelYear: 1990,
+  doors: 1,
+  horsepower: 700,
+  detail: "Group C sport prototype cars",
+};
+
+const nissanZ: Model = {
+  modelName: "Z",
+  maker: Maker.Nissan,
+  enginePlacement: EnginePlacement.Front,
+  engineIntake: EngineIntake.Turbo,
+  driveTrain: DriveTrain.RWD,
+  country: Country.Japan,
+  modelYear: 2023,
+  doors: 2,
+  horsepower: 400,
+};
+
+const teslaY: Model = {
+  modelName: "Model Y",
+  maker: Maker.Tesla,
+  enginePlacement: EnginePlacement.Electric,
+  engineIntake: EngineIntake.Electric,
+  driveTrain: DriveTrain.AWD,
+  country: Country.America,
+  modelYear: 2020,
+  doors: 5,
+  horsepower: 456,
+};
+
+const rimacNevera: Model = {
+  modelName: "Nevera",
+  maker: Maker.Rimac,
+  enginePlacement: EnginePlacement.Electric,
+  engineIntake: EngineIntake.Electric,
+  driveTrain: DriveTrain.AWD,
+  country: Country.Croatia,
+  modelYear: 2022,
+  doors: 2,
+  horsepower: 1912,
+  detail: "Fastest production electric car at top speed of 412 km/h",
 };
 
 export const modelData: Model[] = [
@@ -114,4 +164,7 @@ export const modelData: Model[] = [
   subaruWrx,
   fordShelby,
   fordThunderbird,
+  mazda787,
+  nissanZ,
+  teslaY,
 ];

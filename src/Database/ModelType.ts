@@ -10,12 +10,14 @@ export type Model = {
   modelYearTo?: number;
   doors: number;
   horsepower?: number;
+  detail?: string;
 };
 
 export enum EnginePlacement {
   Front,
   Middle,
   Rear,
+  Electric,
 }
 
 export enum EngineIntake {
@@ -23,6 +25,7 @@ export enum EngineIntake {
   Turbo,
   Supercharge,
   TurboSupercharge,
+  Electric,
 }
 
 export enum DriveTrain {
@@ -32,10 +35,11 @@ export enum DriveTrain {
 }
 
 export enum Country {
-  American,
-  Germany,
-  Japanese,
-  British,
+  America,
+  Croatia,
+  German,
+  Japan,
+  Britain,
 }
 
 export enum Maker {
@@ -44,6 +48,10 @@ export enum Maker {
   Ford,
   GMC,
   Honda,
+  Mazda,
   MercedesBenz,
+  Nissan,
+  Rimac,
   Subaru,
+  Tesla,
 }
